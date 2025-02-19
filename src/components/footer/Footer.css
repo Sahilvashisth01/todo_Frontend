@@ -1,0 +1,17 @@
+.footer {
+  background-color: rgb(237, 217, 240); /* Restore the background color */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  position: static; /* Ensure footer remains at the bottom */
+  text-align: center; /* Align text in the middle horizontally */
+}
+
+.footer h4,
+.footer p {
+  margin: 0; /* Remove unwanted margin */
+  line-height: 1.5; /* Adjust line spacing */
+}

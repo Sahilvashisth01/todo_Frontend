@@ -1,0 +1,84 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar Styling */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+  font-size: 22px;
+  color: rgba(255, 0, 0, 0.836) !important;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo-icon {
+  font-size: 28px;
+}
+
+/* Navbar Items */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-link {
+  color: black !important;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: white !important;
+  background: rgba(240, 0, 0, 0.87);
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+/* Navbar Buttons */
+.btn-nav {
+  background-color: rgba(240, 0, 0, 0.87) !important;
+  border-radius: 5px;
+  color: white !important;
+  font-weight: bold !important;
+  padding: 5px 15px;
+  transition: transform 0.2s ease;
+}
+
+.btn-nav:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* Logout Button */
+.logout-btn {
+  background: red !important;
+}
+
+/* Fix Content Overlapping Issue */
+.navbar-spacing {
+  height: 70px; /* Adjust based on navbar height */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
