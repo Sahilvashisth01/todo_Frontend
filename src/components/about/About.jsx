@@ -1,5 +1,5 @@
 import React from 'react'
-import './About.css'
+import './about.css'
 const About = () => {
   return (
     <div className='about d-flex justify-content-center align-items-center'>
